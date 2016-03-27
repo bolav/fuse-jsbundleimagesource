@@ -1,0 +1,26 @@
+<App Theme="Basic">
+	<JavaScript>
+	  var files = [
+'Assets/Oslo.jpg',
+'Assets/Paris.jpg',
+'Assets/SanFran.jpg',
+'Assets/Seoul.jpg',
+'Assets/Tokyo.jpg'];
+
+		module.exports = {
+			files: files
+		}
+	</JavaScript>
+	<ClientPanel>
+		<ScrollView>
+			<StackPanel>
+				<Each Items="{files}">
+					<Image>
+						<JSBundleImageSource File="{}" />
+					</Image>
+				</Each>
+			</StackPanel>
+		</ScrollView>
+	</ClientPanel>
+</App>
+
