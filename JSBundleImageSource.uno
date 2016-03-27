@@ -1,6 +1,5 @@
 using Uno;
 using Uno.Collections;
-using Fuse;
 using Fuse.Resources;
 using Uno.IO;
 public class JSBundleImageSource : ImageSource
