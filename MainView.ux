@@ -15,9 +15,7 @@
 		<ScrollView>
 			<StackPanel>
 				<Each Items="{files}">
-					<Image>
-						<JSBundleImageSource File="{}" />
-					</Image>
+					<Image File="{}"/>
 				</Each>
 			</StackPanel>
 		</ScrollView>

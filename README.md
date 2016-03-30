@@ -1,3 +1,12 @@
+OBSOLETE
+========
+
+Just do `<Image File="{}" />` if you bundle the images.
+
+
+Old
+---
+
 Component to use bundled images by filename in Fuse from JavaScript.
 
 Now you can write something like:
